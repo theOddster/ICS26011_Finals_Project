@@ -17,22 +17,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/name"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:background="@drawable/edittext_background"
-        android:drawableLeft="@drawable/ic_baseline_person_24"
-        android:drawablePadding="10dp"
-        android:elevation="3dp"
-        android:padding="13dp"
-        android:text="Name"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/reg_img"
-        app:layout_constraintWidth_percent=".8" />
-
-    <EditText
-        android:id="@+id/email_reg"
+        android:id="@+id/email_login"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:background="@drawable/edittext_background"
@@ -47,7 +32,7 @@
         app:layout_constraintWidth_percent=".8" />
 
     <EditText
-        android:id="@+id/password_reg"
+        android:id="@+id/password_login"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="14dp"
@@ -59,7 +44,7 @@
         android:text="Password"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/email_reg"
+        app:layout_constraintTop_toBottomOf="@+id/email_login"
         app:layout_constraintWidth_percent=".8" />
 
     <Button
@@ -68,18 +53,18 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:padding="14dp"
-        android:text="Sign Up"
+        android:text="Sign In"
         android:textAllCaps="false"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/password_reg"/>
+        app:layout_constraintTop_toBottomOf="@+id/password_login"/>
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Already Have An Account?"
+        android:text="Don't Have An Account?"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/login_btn"
@@ -88,7 +73,7 @@
         app:layout_constraintVertical_bias=".2"/>
 
     <TextView
-        android:id="@+id/sign_in"
+        android:id="@+id/sign_up"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Sign In"
